@@ -4,7 +4,7 @@ const context = canvas.getContext('2d', { willReadFrequently: true });
 
 const font = '900 40px serif';
 
-const image1 = createVerticalTextCanvas('123 Lemon', font, { fillStyle: '#00ffff', strokeStyle: '#ff0000', lineWidth: 0.8 });
+const image1 = createVerticalTextCanvas('123 Lemon', font, { fillStyle: '#00ffff', strokeStyle: '#ff0000', lineWidth: 3 });
 const image2 = createAllVerticalTextCanvas('456 Soda', font, { fillStyle: '#00ff00' });
 const image3 = createAllVerticalTextStrokeCanvas('Chocolate', font, { strokeStyle: '#0000ff', lineWidth: 5 }, 150);
 

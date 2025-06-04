@@ -98,11 +98,11 @@
         if (!isFirefox && maxHeight !== undefined) {
             args.push(maxHeight);
         }
-        if (useFillText) {
-            context.fillText(...args);
-        }
         if (lineWidth !== 0) {
             context.strokeText(...args);
+        }
+        if (useFillText) {
+            context.fillText(...args);
         }
 
         if (isFirefox && maxHeight !== undefined) {

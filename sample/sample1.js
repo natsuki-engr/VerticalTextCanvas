@@ -4,7 +4,7 @@ const context = canvas.getContext('2d', { willReadFrequently: true });
 
 const font = '900 40px sans-serif';
 
-const image1 = createVerticalTextCanvas('「ああ～、', font, { fillStyle: '#00ffff', strokeStyle: '#ff0000', lineWidth: 1 });
+const image1 = createVerticalTextCanvas('「ああ～、', font, { fillStyle: '#00ffff', strokeStyle: '#ff0000', lineWidth: 3 });
 const image2 = createVerticalTextCanvas('心がぴょんぴょん', font, { fillStyle: '#00ff00' });
 const image3 = createVerticalTextStrokeCanvas('するんじゃ～。」', font, { strokeStyle: '#0000ff', lineWidth: 5 }, 200);
 
