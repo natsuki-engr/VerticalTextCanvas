@@ -190,4 +190,4 @@ https://github.com/yuneco/canvas-draw-styled-text
 
 ## ライセンス
 
-MIT or WTFLP or くいなちゃんライセンス
+MIT or WTFLP
